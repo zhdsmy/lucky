@@ -28,4 +28,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/caddy:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/lucky:latest
